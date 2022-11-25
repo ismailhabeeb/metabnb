@@ -1,0 +1,33 @@
+.footer{
+    background: #1D1D1E;
+    color: aliceblue;
+    height: 50vh;
+    padding: 68px 9% 3% 9%;
+}
+.fmeta{
+    width: 25%;
+}
+.flog{
+    font-weight: 600;
+}
+.fcom{
+    width: 60%;
+}
+.fcom div strong{
+    font-weight: bolder;
+    font-size: large;
+    font-family: sans-serif;
+    font: small-caps;
+    
+}
+.fcom div div{
+    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    line-height: 40px;
+    
+}
+footer footer{
+    margin-top: 25px;
+    font-size: large;
+}
