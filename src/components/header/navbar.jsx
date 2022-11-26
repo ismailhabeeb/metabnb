@@ -21,7 +21,7 @@ function Navber() {
         </div>
 
         <div>
-          <button className='btn bmc'>Connect wallet</button>
+          <button className='btn bmc' data-bs-toggle="modal" data-bs-target="#myModal">Connect wallet</button>
         </div>
       </nav>
 

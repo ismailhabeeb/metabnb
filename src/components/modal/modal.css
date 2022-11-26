@@ -1,0 +1,29 @@
+.modal-title{
+    font-size: x-large;
+    font-weight: bold;
+    line-height: 50px;
+}
+.modal-header{
+    margin: 0 13px 0 13px;
+
+}
+.modal-body p{
+    line-height: 40px;
+}
+.modal-body ul li{
+    border: solid 1px #959DA6;
+    border-radius: 10px;
+    /* background: #000; */
+    padding: 10px 20px 10px 20px;
+    align-items: center;
+    font-size: larger;
+    margin-bottom: 15px;
+}
+.modal-dialog-centered{
+    max-width: 600px ;
+    justify-content: center;
+    margin: auto;
+}
+.modal-body{
+    margin: 0 13px 2px 13px;
+}

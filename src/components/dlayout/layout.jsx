@@ -1,6 +1,7 @@
 // import { Link } from "react-router-dom";
 import Navber from "../header/navbar";
 import Footer from "../footer/footer";
+import Modal from "../modal/modal";
 const Layout = ({ children }) => {
     return (
         <main >
@@ -10,6 +11,7 @@ const Layout = ({ children }) => {
                 {children}
             </div>
             <Footer />
+            <Modal/>
         </main>
     )
 }

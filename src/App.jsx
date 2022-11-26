@@ -3,6 +3,8 @@ import { useState } from 'react'
 // import './App.css'
 import Layout from './components/dlayout/layout'
 import Home from './components/home/home'
+import Modal from './components/modal/modal'
+import PlaceToStay from './components/place_to_stay/placeToStay'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -10,7 +12,8 @@ function App() {
   return (
     <div className="App">
       <Layout>
-        <Home/>
+        {/* <Home/> */}
+        <PlaceToStay/>
       </Layout>
       
     </div>
