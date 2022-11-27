@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Outlet } from 'react-router-dom'
 // import reactLogo from './assets/react.svg'
 // import './App.css'
 import Layout from './components/dlayout/layout'
@@ -12,8 +13,7 @@ function App() {
   return (
     <div className="App">
       <Layout>
-        {/* <Home/> */}
-        <PlaceToStay/>
+      <Outlet/>
       </Layout>
       
     </div>

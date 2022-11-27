@@ -12,7 +12,7 @@ function Modal() {
     return (
         <div>
             <div className="modal fade" id="myModal">
-                <div className="modal-fullscreen-sm-down modal-dialog-centered ">
+                <div className="modal-dialog modal-fullscreen-sm-down modal-dialog-centered ">
                     <div className="modal-content">
                         <div className="modal-header">
                             <h4 className="modal-title">Connect wallet</h4>

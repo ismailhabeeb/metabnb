@@ -1,6 +1,8 @@
 import { useState } from 'react'
+import Modal from '../modal/modal'
 import Logo from './bungalow.png'
 import './navbar.css'
+import { Link } from 'react-router-dom'
 
 function Navber() {
   const [count, setCount] = useState(0)
@@ -15,7 +17,7 @@ function Navber() {
 
         <div className='tw-flex tw-flex-row nav tw-justify-evenly black'>
           <main className='page'>Home</main>
-          <main className='page'>Place to stay</main>
+          <main className='page'><Link to={"/placeToStay"}>Place to stay</Link></main>
           <main className='page'>NFTs</main>
           <main className='page'>Community</main>
         </div>
@@ -25,7 +27,7 @@ function Navber() {
         </div>
       </nav>
 
-
+    {/* <Modal/> */}
     </div>
   )
 }
