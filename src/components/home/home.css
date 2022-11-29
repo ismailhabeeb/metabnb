@@ -292,7 +292,7 @@
         font-size: smaller;
     }
     .buttom div p, .buttom div strong{
-        line-height: 20px;
+        line-height: 18px;
     }
     .buttom ~ footer {
         margin-top: 5px;
@@ -307,7 +307,7 @@
 
     .view{
         display: block !important;
-        height: 110vh !important;
+        height: 190vh !important;
         padding: 10px !important;
     }
    
