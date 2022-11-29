@@ -11,3 +11,26 @@
     font-size: large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+@media (max-width: 767px) {
+    .topbar {
+        color: #a9a8a8;
+        width: 98%;
+        font-size: large;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 10px !important;
+        gap: 6px;
+
+    }
+    .location {
+        border: solid 1px #9e9e9e;
+        gap: 6px;
+        padding: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+    .location p{
+        display: none;
+    }
+}

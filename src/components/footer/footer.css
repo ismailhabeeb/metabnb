@@ -1,33 +1,82 @@
-.footer{
+.footer {
     background: #1D1D1E;
     color: aliceblue;
     height: 50vh;
     padding: 68px 9% 3% 9%;
 }
-.fmeta{
-    width: 25%;
+
+.fmeta {
+    /* width: 25%; */
 }
-.flog{
+
+.flog {
     font-weight: 600;
 }
-.fcom{
+
+.fcom {
     width: 60%;
 }
-.fcom div strong{
+
+.fcom div strong {
     font-weight: bolder;
     font-size: large;
     font-family: sans-serif;
     font: small-caps;
-    
 }
-.fcom div div{
+
+.fcom div div {
     font-family: sans-serif;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: smaller;
     line-height: 40px;
-    
 }
-footer footer{
+
+footer footer {
     margin-top: 25px;
     font-size: large;
+}
+
+@media (max-width: 767px) {
+    .footer {
+        height: 50vh;
+        padding: 68px 10px 3% 10px;
+    }
+
+    .ff {
+        display: block !important;
+    }
+
+    .flog {
+        font-weight: 400;
+        font-size: 40px !important;
+    }
+
+    .fmeta {
+        justify-content: space-between;
+        display: flex !important;
+        width: 100% !important;
+    }
+
+    .fmeta div {
+        margin: 0 !important;
+    }
+
+    .social {
+        margin: 0 !important;
+        width: 30% !important;
+        justify-content: flex-end;
+    }
+
+    .social img {
+        width: 20px;
+        height: 20px;
+        margin-left: auto;
+        margin: auto;
+    }
+
+    .fcom {
+        margin-top: 20px;
+        display: block;
+        width: 100% !important;
+    }
 }

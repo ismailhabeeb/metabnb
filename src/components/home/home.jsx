@@ -33,7 +33,7 @@ function Home() {
 
   return (
     <div className="App">
-      <div className='tw-flex tw-pb-10 tw-pt-10 tw-p-16 cotainer-fluid'>
+      <div className='tw-flex tw-pb-10 tw-pt-10 tw-p-16 head'>
         <div className='tw-w-3/5 mt-5'>
 
           <div className='tw-w-10/12'>
@@ -51,11 +51,11 @@ function Home() {
         </div>
 
         <div className='tw-flex tw-flex-row '>
-          <div className='tw-mt-24'>
+          <div className='tw-mt-24 pcardy'>
             <img className='cardy m-2 ' width="100%" src={t1} alt="" />
             <img className='cardy m-2' width="200px" src={t2} alt="" />
           </div>
-          <div className='mt-3'>
+          <div className='mt-3 pcardy'>
             <img className='cardy m-2 ms-0' width="200px" src={t3} alt="" />
             <img className='cardy m-2 ms-0' width="200px" src={t4} alt="" />
           </div>
@@ -75,7 +75,7 @@ function Home() {
         {
           count.map((value, index) => {
             return (
-              <section key={index} className=' w-25 card'>
+              <section key={index} className='card'>
                 <img className='card-img' width="300px" src={value} alt="" />
                 <span className='card-img-overlay '><img className='' width="22px" src={like} alt="" /></span>
                 <footer className='buttom'>
@@ -114,8 +114,8 @@ function Home() {
           <button className='btn btn-light mc learn'><a href="#">Learn more</a></button>
         </section>
 
-        <section className=' '>
-          <p className='simg'>
+        <section className='simg '>
+          <p className=''>
             <img className='cimg1' width="390px" src={purpleR} alt="" />
           </p>
           <p>

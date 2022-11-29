@@ -41,14 +41,14 @@ function PlaceToStay() {
                     <p>Carbins</p>
                     <p>Off-grid</p>
                     <p>Farm</p>
-                    <button className='btn black location tw-flex '>Location <img src={bar} alt="" /></button>
+                    <button className='btn black location tw-flex '><p>Location </p><img src={bar} alt="" /></button>
                 </nav>
 
                 <main className='main tw-p-16 black'>
                     {
                         list.map((value, index) => {
                             return (
-                                <section key={index} className=' w-25 card'>
+                                <section key={index} className=' card'>
                                     <img className='card-img' width="300px" src={value} alt="" />
                                     <span className='card-img-overlay '><img className='' width="22px" src={like} alt="" /></span>
                                     <footer className='buttom'>

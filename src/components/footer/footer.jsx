@@ -12,20 +12,20 @@ function Footer() {
         <div className="App">
             <footer className='footer'>
 
-                <section className='d-flex tw-justify-between'>
+                <section className='d-flex tw-justify-between ff'>
                     <section className='fmeta'>
                         <div className='tw-flex '>
                             <p><img width={45} src={Logo} alt="" /></p>
                             <div className='tw-text-5xl text-light flog'>Metabnb</div>
                         </div>
-                        <div className='tw-flex w-50 tw-justify-between tw-mt-24'>
+                        <div className='tw-flex w-50 tw-justify-between tw-mt-24 social'>
                             <img width={20} src={face} alt="" />
                             <img width={20} src={inst} alt="" />
                             <img width={20} src={twi} alt="" />
                         </div>
                     </section>
 
-                    <section className='tw-flex tw-justify-between fcom'>
+                    <section className='tw-flex tw-justify-between fcom '>
                         <div>
                             <strong>Community</strong>
                             <div>NFT</div>
@@ -53,7 +53,7 @@ function Footer() {
                     </section>
                 </section>
 
-                <footer>© 2022 Metabnb</footer>
+                <footer>© 2022 Metabnb <small><a href="tel:09026674356" >.coded by ISMAIL HABEEB</a></small></footer>
             </footer>
         </div>
     )
