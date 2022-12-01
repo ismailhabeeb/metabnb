@@ -33,6 +33,12 @@ footer footer {
     font-size: large;
 }
 /* 1024 */
+@media (max-width: 768px) {
+    .footer {
+        min-height: 60vh !important;
+         padding: 68px 10px 3% 10px;
+     }
+}
 @media (max-width: 767px) {
     .footer {
        height: 60vh !important;

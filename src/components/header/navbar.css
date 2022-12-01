@@ -39,6 +39,20 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 }
 
 /* 912 */
+@media (max-width: 1024px) {
+    .nav{
+        width: 70% !important;
+        justify-content: space-between !important;
+    }
+    .header{
+       flex-wrap: wrap;
+    }
+    .Conn{
+        justify-content: right;
+        margin-left: auto;
+
+    }
+}
 @media (max-width: 768px) {
     .header{
         padding: 10px !important;

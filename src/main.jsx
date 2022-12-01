@@ -11,18 +11,19 @@ const Home = React.lazy(() => import("./components/home/home"))
 const PlaceToStay = React.lazy(() => import("./components/place_to_stay/placeToStay"))
 
 const router = createBrowserRouter([
-  { path: "/", element: <App/>, errorElement: <h1>page Not found</h1>,
-  children:[
-    {path:"",element:<Home/> },
-    {path:"placeToStay",element:<PlaceToStay/> }
-  ]
-},
-  
+  {
+    path: "/", element: <App />, errorElement: <h1>page Not found</h1>,
+    children: [
+      { path: "", element: <Home /> },
+      { path: "placeToStay", element: <PlaceToStay /> }
+    ]
+  },
+
 ])
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Suspense>
-    <RouterProvider router={router} />
+      <RouterProvider router={router} />
     </Suspense>
   </React.StrictMode>
 );

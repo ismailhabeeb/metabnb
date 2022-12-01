@@ -50,7 +50,7 @@ function Home() {
           </div>
         </div>
 
-        <div className='tw-flex tw-flex-row '>
+        <div className='tw-flex tw-flex-row ppcardy'>
           <div className='tw-mt-24 pcardy'>
             <img className='cardy m-2 ' width="100%" src={t1} alt="" />
             <img className='cardy m-2' width="200px" src={t2} alt="" />

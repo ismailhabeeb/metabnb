@@ -192,9 +192,69 @@
     /* ma */
 }
 
-/* 912 */
 /* 280 */
 /* 1024 */
+/* 912 */
+/* 820 */
+
+@media (max-width: 1024px) {
+    .head{
+        
+        display: block !important;
+    }
+    .head div{
+        width: 100%;
+    }
+    .rent {
+        width: 100% !important;
+    }
+    .searchdiv{
+       max-width: 100%;
+       
+    }
+    .view{
+        display: block !important;
+        min-height: 110vh !important;
+        /* padding: 10px !important; */
+    }
+    .cimg1,.cimg2,.cimg3{       
+        margin: auto;    
+    }
+    
+    .cardy{
+     width: 400px;  
+    }
+
+    .card {
+        
+        padding: 9px;
+        width: 175px ;
+        border: 1px solid rgb(177, 175, 175);
+        border-radius: 10px;
+    }
+    
+    .card-img{
+        border-radius: 15px;
+        height: auto;
+    }
+    .buttom{
+        font-size: 10px;
+    }
+    .buttom div p, .buttom div strong{
+        line-height: 12px;
+        
+    }
+    .buttom ~ footer {
+        margin-top: 5px;
+        gap: 2px;
+    }
+    .card-img-overlay img{
+        margin: 2px;    
+        margin-left: auto;
+    }
+
+}
+
 @media (max-width: 768px) {
     .rent {
         font-size: 35px;
