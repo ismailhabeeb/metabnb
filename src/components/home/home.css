@@ -344,12 +344,15 @@
         font-family: "calibri";
     
     }
+    .simg{
+        padding-bottom: 20px;
+
+    }
     .cimg1,.cimg2,.cimg3{
         border-radius: 15px;
         height: 150px;
         width: 200px;
         margin: auto;
-        padding-bottom: 20px;
     
     }
     .cimg2{
