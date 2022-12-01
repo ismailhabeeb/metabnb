@@ -115,7 +115,7 @@
    justify-content: space-between;
 }
 .view {
-    height: 120vh !important;
+    min-height: 120vh !important;
     font-family: "inter";
 }
 .s{
@@ -316,7 +316,7 @@
 
     .view{
         display: block !important;
-        height: 110vh !important;
+        min-height: 110vh !important;
         padding: 10px !important;
     }
    
