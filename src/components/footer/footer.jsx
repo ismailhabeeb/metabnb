@@ -15,7 +15,7 @@ function Footer() {
                 <section className='d-flex tw-justify-between ff'>
                     <section className='fmeta'>
                         <div className='tw-flex '>
-                            <p><img width={45} src={Logo} alt="" /></p>
+                            <p><img className='flogimg' width={45} src={Logo} alt="" /></p>
                             <div className='tw-text-5xl text-light flog'>Metabnb</div>
                         </div>
                         <div className='tw-flex w-50 tw-justify-between tw-mt-24 social'>
@@ -53,7 +53,7 @@ function Footer() {
                     </section>
                 </section>
 
-                <footer>© 2022 Metabnb <small><a href="tel:09026674356" >.coded by ISMAIL HABEEB</a></small></footer>
+                <footer><small>© 2022 Metabnb </small><small><a href="tel:09026674356" >.coded by ISMAIL HABEEB</a></small></footer>
             </footer>
         </div>
     )

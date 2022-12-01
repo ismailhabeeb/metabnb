@@ -192,8 +192,10 @@
     /* ma */
 }
 
-
-@media (max-width: 767px) {
+/* 912 */
+/* 280 */
+/* 1024 */
+@media (max-width: 768px) {
     .rent {
         font-size: 35px;
         font-family:  Andika;
@@ -216,6 +218,7 @@
         width: 100%;
         font-family: "calibri";
         line-height: 28px;
+
     }
 
     .head div{
@@ -223,11 +226,16 @@
     }
     .searchdiv{
        max-width: 100%;
+       
     }
    
     .head{
+        
         display: block !important;
         padding: 10px !important;
+    }
+    .hrent{
+        margin-top: 5px !important;
     }
     .cardy{
         width: 170px;
@@ -289,10 +297,11 @@
         height: auto;
     }
     .buttom{
-        font-size: smaller;
+        font-size: 10px;
     }
     .buttom div p, .buttom div strong{
-        line-height: 18px;
+        line-height: 12px;
+        
     }
     .buttom ~ footer {
         margin-top: 5px;
@@ -307,7 +316,7 @@
 
     .view{
         display: block !important;
-        height: 160vh !important;
+        height: 110vh !important;
         padding: 10px !important;
     }
    
@@ -317,7 +326,7 @@
         margin-bottom: 60px;
     }
     .ss{
-        font-size: 50px;
+        font-size: 46px;
         font-weight: bolder;
         line-height: 110px;
         color: white;
@@ -327,10 +336,10 @@
     }
     .ss ~ div{
         font-family: inter;
-        font-size: larger;
+        font-size: large;
         font-weight: 500;
         width: 100%;
-        line-height: 35px;
+        line-height: 32px;
         color: white;
         font-family: "calibri";
     
@@ -349,11 +358,11 @@
     -ms-transform: rotate(-30deg);
     transform: rotate(-30deg);
     margin-left: 30px;
-    margin-top: -20px;
+    margin-top: -40px;
 
 }
 .cimg3{
-    margin-top: -40px;
+    margin-top: -60px;
     margin-right: 50px;
     -webkit-transform: rotate(-10deg);
     -moz-transform: rotate(-10deg);

@@ -16,10 +16,11 @@
     .topbar {
         color: #a9a8a8;
         width: 98%;
-        font-size: large;
+        font-size: medium;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         padding: 10px !important;
-        gap: 6px;
+        justify-content: space-between !important;
+        gap: 10px;
 
     }
     .location {

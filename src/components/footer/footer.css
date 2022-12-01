@@ -32,7 +32,7 @@ footer footer {
     margin-top: 25px;
     font-size: large;
 }
-
+/* 1024 */
 @media (max-width: 767px) {
     .footer {
        height: 60vh !important;
@@ -42,16 +42,20 @@ footer footer {
     .ff {
         display: block !important;
     }
+    .flogimg{
+        width: 39px;
+    }
 
     .flog {
         font-weight: 400;
-        font-size: 40px !important;
+        font-size: 38px !important;
     }
 
     .fmeta {
         justify-content: space-between;
         display: flex !important;
         width: 100% !important;
+        margin-bottom: 30px;
     }
 
     .fmeta div {

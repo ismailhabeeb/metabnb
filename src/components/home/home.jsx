@@ -34,7 +34,7 @@ function Home() {
   return (
     <div className="App">
       <div className='tw-flex tw-pb-10 tw-pt-10 tw-p-16 head'>
-        <div className='tw-w-3/5 mt-5'>
+        <div className='tw-w-3/5 mt-5 hrent'>
 
           <div className='tw-w-10/12'>
             <div className='rent mb-5 black'> Rent a <span className='mc'>Place</span> away from <span className='mc'>Home</span> in the <span className='mc'> Metaverse</span> </div>
