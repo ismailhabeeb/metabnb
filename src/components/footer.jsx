@@ -1,9 +1,9 @@
 import { useState } from 'react'
-import Logo from './bungalow (1).png'
-import face from './facebook.png'
-import twi from './twitter.png'
-import inst from './instagram.png'
-import './footer.css'
+import Logo from '../assets/images/bungalow (1).png'
+import face from '../assets/images/facebook.png'
+import twi from '../assets/images/twitter.png'
+import inst from '../assets/images/instagram.png'
+import '../assets/styles/footer.css'
 
 function Footer() {
     const [count, setCount] = useState(0)
@@ -15,13 +15,13 @@ function Footer() {
                 <section className='d-flex tw-justify-between ff'>
                     <section className='fmeta'>
                         <div className='tw-flex '>
-                            <p><img className='flogimg' width={45} src={Logo} alt="" /></p>
+                            <p><img loading='lazy' className='flogimg' width={45} src={Logo} alt="" /></p>
                             <div className='tw-text-5xl text-light flog'>Metabnb</div>
                         </div>
                         <div className='tw-flex w-50 tw-justify-between tw-mt-24 social'>
-                            <img width={20} src={face} alt="" />
-                            <img width={20} src={inst} alt="" />
-                            <img width={20} src={twi} alt="" />
+                            <img loading='lazy' width={20} src={face} alt="" />
+                            <img loading='lazy' width={20} src={inst} alt="" />
+                            <img loading='lazy' width={20} src={twi} alt="" />
                         </div>
                     </section>
 

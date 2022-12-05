@@ -7,7 +7,8 @@
 
 
 .flog {
-    font-weight: 600;
+    font-family: 'red Rose';
+
 }
 
 .fcom {
@@ -15,17 +16,17 @@
 }
 
 .fcom div strong {
-    font-weight: bolder;
-    font-size: large;
-    font-family: sans-serif;
-    font: small-caps;
+    font-family: 'red Rose';
 }
 
 .fcom div div {
-    font-family: sans-serif;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'red Rose';
     font-size: smaller;
     line-height: 40px;
+}
+small{
+    font-family: 'red Rose';
+
 }
 
 footer footer {
