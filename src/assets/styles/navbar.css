@@ -1,23 +1,27 @@
 .navbar {
-/* text-align: center; */
+    /* text-align: center; */
 }
-.ttt{
+
+.ttt {
     text-align: center;
 
 }
-.name{
+
+.name {
     font-size: 40px;
-    background: -webkit-linear-gradient(360deg,#A02279,#A02279, #A02279, rgb(128,67,216),rgb(128,67,216),rgb(128,67,216)) ;
+    background: -webkit-linear-gradient(360deg, #A02279, #A02279, #A02279, rgb(128, 67, 216), rgb(128, 67, 216), rgb(128, 67, 216));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
     margin: auto;
-    
+
 }
-.page{
-font-size: larger;
-font-family: 'red Rose';
+
+.page {
+    font-size: larger;
+    font-family: 'red Rose';
 }
+
 .btn {
     border-radius: 10px;
     border: 1px solid transparent;
@@ -28,60 +32,57 @@ font-family: 'red Rose';
     cursor: pointer;
     transition: border-color 0.25s;
     color: white;
-  }
-.nav{
-    width: 47%;
+}
+
+.navbar-collapse {
+    margin-left: 150px;
+    width: 300px !important;
+
+}
+
+.nav {
+    width: 70% !important;
     word-spacing: -0.2rem;
 }
+
 .Connect img {
     display: none;
-    
+
 }
-.header{
+
+.header {
     margin-top: 10px;
 }
 
 /* 912 */
-@media (max-width: 1024px) {
-    .nav{
-        width: 70% !important;
-        justify-content: space-between !important;
-    }
-    .header{
-       flex-wrap: wrap;
-    }
-    .Conn{
-        justify-content: right;
-        margin-left: auto;
 
+
+@media (max-width: 1128px) {
+    .navbar-collapse {
+        margin-left: 0;
+        width: 300px !important;
+    
     }
-}
-@media (max-width: 768px) {
-    .header{
-        padding: 10px !important;
+    .header {
+        /* padding: 10px !important; */
         padding-bottom: 0 !important;
-    }
-    .nav{
-        width: 100% !important;
-        justify-content: space-between !important;
-    }
-    .Connect img {
-        /* visibility: visible; */
-        display: block;
-    }
-    .Connect p {
-        /* visibility: visible; */
-        display: none;
-    }
-    .Conn{
-        justify-content: right;
-        margin-left: auto;
-
     }
     .btn {
         border-radius: 10px;
         border: 1px solid transparent;
         padding: 0.3em 1.0em;
 
-      }
+    }
+
+}
+@media (max-width: 970px) {
+    .header {
+        padding: 8px !important;
+        padding-bottom: 0 !important;
+    }
+    .nav-item {
+        padding: 0.3em 1.0em;
+
+        width: 100% !important;
+    }
 }

@@ -10,21 +10,35 @@ function Navber() {
 
   return (
     <div className="App">
-      <nav className='tw-flex tw-flex-row tw-justify-between navbar tw-pr-16 tw-pl-16 header'>
-        <div className='tw-flex'>
-          <p className=' ttt my-auto'><img loading='lazy' width={40} src={Logo} alt="" /></p>
-          <p className=' tw-font-bold name'>Metabnb</p>
-        </div>
+      <nav class="navbar navbar-expand-lg navbar-light tw-pr-14 tw-pl-14 header">
+        <div class="container-fluid tw-justify-between ">
+          <div className='tw-flex navbar-brand'>
+            <span className=' ttt my-auto'><img loading='lazy' width={40} src={Logo} alt="" /></span>
+            <span className=' tw-font-bold name'>Metabnb</span>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
 
-        <div className='tw-flex tw-flex-row nav tw-justify-evenly black'>
-          <main className='page'><Link to="/">Home</Link></main>
-          <main className='page'><Link to={"/placeToStay"}>Place to stay</Link></main>
-          <main className='page'>NFTs</main>
-          <main className='page'>Community</main>
-        </div>
-
-        <div className='Conn'>
-          <button className='Connect btn bmc' data-bs-toggle="modal" data-bs-target="#myModal"><img loading='lazy' width={20} src={link} alt="" /> <p>Connect wallet</p></button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 tw-justify-evenly black nav">
+              <li class="nav-item">
+                <main className='page'><Link to="/">Home</Link></main>
+              </li>
+              <li class="nav-item">
+                <main className='page'><Link to={"/placeToStay"}>Place to stay</Link></main>
+              </li>
+              <li class="nav-item">
+                <main className='page'>NFTs</main>
+              </li>
+              <li class="nav-item">
+                <main className='page'>Community</main>
+              </li>
+            </ul>
+            <div className='Conn'>
+              <button className='Connect btn bmc' data-bs-toggle="modal" data-bs-target="#myModal">Connect wallet</button>
+            </div>
+          </div>
         </div>
       </nav>
     </div>
