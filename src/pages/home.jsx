@@ -75,7 +75,8 @@ function Home() {
         {
           count.map((value, index) => {
             return (
-              <section key={index} className='card'>
+            <div key={index}>
+              <section data-bs-toggle="modal" data-bs-target={`#exampleModal` + index} className='card'>
                 <img loading='lazy' className='card-img' width="300px" src={value} alt="" />
                 <span className='card-img-overlay '><img className='' width="22px" src={like} alt="" /></span>
                 <footer className='buttom'>
@@ -97,6 +98,33 @@ function Home() {
                   <img loading='lazy' width="12px" src={star} alt="" />
                 </footer>
               </section>
+
+              <>
+                <div key={index} className="modal fade" id={`exampleModal` + index} tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div className="modal-dialog modal-lg">
+                    <div className="modal-content">
+                      <div className="modal-body">
+                        <img loading='lazy' className='card-img' src={value} alt="" />
+
+                      </div>
+                      <footer className='container '>
+                        <div className='tw-flex tw-justify-between mt-2'>
+                          <p>Desert king</p>
+                          <strong>1MBT PER night</strong>
+                        </div>
+                        <div className='tw-flex tw-justify-between'>
+                          <p className=''>2345km away</p>
+                          <p>available for 2weeks stay</p>
+                        </div>
+                      </footer>
+                      <div className="modal-footer">
+                        <button type="button" className="btn btn-secondary bg-info" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </>
+            </div>
             )
 
           })

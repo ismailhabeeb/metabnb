@@ -10,28 +10,28 @@ function Navber() {
 
   return (
     <div className="App">
-      <nav class="navbar navbar-expand-lg navbar-light tw-pr-14 tw-pl-14 header">
-        <div class="container-fluid tw-justify-between ">
+      <nav className="navbar navbar-expand-lg navbar-light tw-pr-14 tw-pl-14 header">
+        <div className="container-fluid tw-justify-between ">
           <div className='tw-flex navbar-brand'>
             <span className=' ttt my-auto'><img loading='lazy' width={40} src={Logo} alt="" /></span>
             <span className=' tw-font-bold name'>Metabnb</span>
           </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon "></span>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon "></span>
           </button>
 
-          <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 tw-justify-evenly black nav">
-              <li class="nav-item">
+          <div className="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0 tw-justify-evenly black nav">
+              <li className="nav-item">
                 <main className='page'><Link to="/">Home</Link></main>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <main className='page'><Link to={"/placeToStay"}>Place to stay</Link></main>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <main className='page'>NFTs</main>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <main className='page'>Community</main>
               </li>
             </ul>
